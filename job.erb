@@ -1,0 +1,8 @@
+<h3>
+  <span class="company"><%= @company %></span>
+  <%= @title %> (<%= @dates %>)</h3>
+<ul>
+  <% @bullets.each do |point| %>
+    <li><%= point %></li>
+  <% end %>
+</ul>

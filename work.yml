@@ -1,0 +1,21 @@
+jobs:
+- company: "Coinbase"
+  title: "Software Engineer on Merchant Platform, Security"
+  dates: "September 2017 to Present"
+  bullets:
+  - "Built the React-based frontend dashboard for a greenfield e-commerce platform"
+  - "Developed low-level payments infrastructure for Bitcoin, Ethereum, Bitcoin Cash, and Litecoin, allowing online merchants anywhere to accept cryptocurrency as payment"
+  - "Wrote a novel publish-subscribe mechanism for processing pending transactions, reducing time to detection of Bitcoin payments by a factor of 10"
+
+- company: "Stripe"
+  title: "Engineering Intern on Storage"
+  dates: "January to April 2017"
+  bullets:
+  - "Lead a mission-critical resharding operation, deploying hundreds of MongoDB servers and migrating hundreds of terabytes of customer data through a live production system"
+  - "Built a custom MapReduce pipeline to calculate database storage density across key ranges with a novel dynamic programming algorithm, enabling perfectly optimal shard splits"
+- company: "Shopify"
+  title: "Software Developer Intern on Infrastructure"
+  dates: "January to August 2016"
+  bullets:
+  - "Designed, implemented, and deployed a caching layer for NGINX software load balancers, processing tens of thousands of requests per second and mitigating denial of service attacks"
+  - "Developed large-scale distributed HTTP load testing software, capable of generating hundreds of thousands of requests per second, used for resiliency testing of the entire Shopify platform"

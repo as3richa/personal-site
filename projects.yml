@@ -1,0 +1,53 @@
+projects:
+  - name: raycast
+    demo: https://raycast.r1chardson.com
+    screenshot: raycast.png
+    description: >-
+      Raycasting 3D renderer, written in pure Javascript/HTML5. Generates a
+      maze-like world using a randomized variant of Prim's algorithm and
+      navigates through the grid to an exit, reminiscent of the classic Windows
+      95 screensaver.
+
+  - name: es6-connect4
+    demo: https://c4.r1chardson.com
+    screenshot: c4.png
+    description: >-
+      Browser-based multiplayer Connect 4 game, written in ES6 with
+      Flow. Supports mouse, touch, and keyboard controls.
+
+  - name: termracer
+    screenshot: termracer.png
+    description: >-
+      Tiny console typing game loosely inspired by typeracer, written in C
+      with ncurses. Featuring a corpus of texts from Alice in Wonderland.
+
+  - name: goword
+    demo: https://goword.r1chardson.com
+    screenshot: goword.png
+    description: >-
+      Browser-based multiplayer Boggle clone, written in Go on the
+      backend and pure Javascript on the frontend.
+
+  - name: stringsink
+    description: >-
+      Pedagogical Ruby extension written in C. Implements the write-only
+      functionality of the standard library's StringIO class, achieving significantly
+      higher performance than the built-in class for certain workloads.
+
+  - name: s3ralizer
+    description: >-
+      Ruby library for fast and simple serialization of arbitrary objects,
+      designed for implementing JSON APIs. Deployed in production as part of the
+      <a href="https://commerce.coinbase.com/">Coinbase Commerce</a> API.
+
+  - name: kudos
+    demo: https://kudos.r1chardson.com
+    screenshot: kudos.png
+    description: >-
+      Browser-based sudoku app, written in pure Javascript. Comes preloaded with
+      a large variety of puzzles and features automatic solving, hints, error
+      checking, and a builder mode.
+
+  - name: brainrack
+    description: >-
+      Interpreter for an esoteric language, written in Racket.

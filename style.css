@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #222;
+  line-height: 1.8;
+  font-family: "Exo", sans-serif;
+  font-size: 18px;
+  border-top: 0.25em solid green;
+}
+
+#content {
+  width: 75%;
+  max-width: 1200px;
+  min-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+a {
+  color: #222;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.75em;
+  text-align: center;
+  color: #666;
+}
+
+h3 {
+  font-weight: normal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.mono {
+  font-family: "Roboto Mono", monospaced;
+}
+
+img.project-screenshot {
+  display: block;
+  margin-left: 0.5em;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+img.portrait {
+  display: block;
+  float: left;
+  margin-left: 0.5em;
+  margin-right: 1.5em;
+  margin-top: 0.5em;
+  border-radius: 8px;
+}
+
+.company {
+  font-weight: 600;
+  margin-right: 0.5em;
+}

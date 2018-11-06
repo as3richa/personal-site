@@ -1,0 +1,13 @@
+<h3>
+  <span class="mono"><%= @name %></span> 
+  (<a href="https://github.com/as3richa/<%= @name %>">code</a><%= @demo ? ', ' : ')'%>
+  <% if @demo %>
+    <a href="<%= @demo %>">demo</a>)
+  <% end %>
+</h3>
+<% if @screenshot %>
+  <a href=<%= @demo || "https://github.com/as3richa/#{@name}" %>>
+    <img class="project-screenshot" src="<%= @screenshot%>" />
+  </a>
+<% end %>
+<p><%= @description %></p>
